@@ -103,6 +103,20 @@ Example:
 ```bash
 docker build --build-arg SCRAPE_URL=https://example.com -t url-scraper-app .
 ```
+# .dockerignore
+
+Added the following to exclude unnecessary files and folders from the Docker build.
+
+- node_modules
+- .git
+- .gitignore
+- *.md
+- !README.md
+- __pycache__
+- *.pyc
+- .venv
+- venv
+- .env*
 
 # Project Structure
 ```bash
