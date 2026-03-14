@@ -1,0 +1,12 @@
+{
+  "name": "url-scraper",
+  "version": "1.0.0",
+  "description": "Puppeteer-based URL scraper for Docker multi-stage build",
+  "main": "scrape.js",
+  "scripts": {
+    "scrape": "node scrape.js"
+  },
+  "dependencies": {
+    "puppeteer": "^21.0.0"
+  }
+}
